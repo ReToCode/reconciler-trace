@@ -1,0 +1,30 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    app: myapp
+  name: myapp
+  namespace: knative-performance
+spec:
+  containers:
+  - image: gcr.io/knative-samples/helloworld-go
+    name: myapp
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: test-svc
+  namespace: knative-performance
+spec:
+  ports:
+  - name: http
+    port: 80
+    protocol: TCP
+    targetPort: 8012
+  - name: https
+    port: 443
+    protocol: TCP
+    targetPort: 8112
+  type: ClusterIP
+  selector:
+    app: myapp

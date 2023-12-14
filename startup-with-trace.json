@@ -1,0 +1,2159 @@
+{
+    "data": [
+        {
+            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+            "spans": [
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "e9b92b314a5e9c07",
+                    "operationName": "endpointsGetter: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347583986,
+                    "duration": 204513,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "407cf87e1d14d6fe",
+                    "operationName": "NewCluster: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474349774877,
+                    "duration": 14,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "48d1bb4de73281cb",
+                    "operationName": "NewWeightedCluster: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474349774899,
+                    "duration": 7,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "20515072579dd8f0",
+                    "operationName": "path-loop: (demo/helloworld).Rules[0]",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474348574328,
+                    "duration": 1200614,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "67fb9a690e77cd30",
+                    "operationName": "sni-loops",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474348574321,
+                    "duration": 1,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "6867e60aea7ac33a",
+                    "operationName": "initEnvoySnapshot",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347398207,
+                    "duration": 2018,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "9f16ea9b98ed34e0",
+                    "operationName": "serviceGetter: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474349775034,
+                    "duration": 195231,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "dae89fb7db571738",
+                    "operationName": "endpointsGetter: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474349970278,
+                    "duration": 211280,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "8a07333f2214aacd",
+                    "operationName": "lbEndpointsForKubeEndpoints: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474350181593,
+                    "duration": 14,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "ff1ab72f36778f71",
+                    "operationName": "createUpstreamTransportSocket: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474350181614,
+                    "duration": 192975,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "edadac89fa9b0daa",
+                    "operationName": "ingressesToSyncSpan",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347400231,
+                    "duration": 3584404,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "5c6a18baaeef093d",
+                    "operationName": "NewWeightedCluster: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474350374632,
+                    "duration": 8,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "6ec6b45b8e52e07c",
+                    "operationName": "trackService: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474350374659,
+                    "duration": 33,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "89bcbda021f58d79",
+                    "operationName": "serviceGetter: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474350374694,
+                    "duration": 200111,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "548e8e49b0205b1d",
+                    "operationName": "endpointsGetter: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474350574830,
+                    "duration": 201114,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "c0b92da5be1fda35",
+                    "operationName": "lbEndpointsForKubeEndpoints: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474350775958,
+                    "duration": 5,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "117c30f79748f747",
+                    "operationName": "createUpstreamTransportSocket: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474350775966,
+                    "duration": 208579,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "fc73a9416f4e5235",
+                    "operationName": "NewCluster: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474350984565,
+                    "duration": 7,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "e632baba79c9513c",
+                    "operationName": "NewWeightedCluster: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474350984579,
+                    "duration": 4,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "36215ffe2f189025",
+                    "operationName": "updateEnvoyConfigSpan",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474350984629,
+                    "duration": 119,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "9c4cc53a450672c9",
+                    "operationName": "Spec.Rules-loops",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474348574324,
+                    "duration": 2410278,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "8be71da2ab208322",
+                    "operationName": "translator.translateIngress default/helloworld",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347419373,
+                    "duration": 1154881,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p3",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "f6f95537871aff7c",
+                    "operationName": "translator.translateIngress demo/helloworld",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474348574318,
+                    "duration": 2410292,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p3",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "2c279acbb796ff6b",
+                    "operationName": "createUpstreamTransportSocket: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474348980954,
+                    "duration": 195102,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "610bd10420991fe6",
+                    "operationName": "path-loop: (demo/helloworld).Rules[1]",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474349774955,
+                    "duration": 1209641,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "06fbe3a8679a5d2b",
+                    "operationName": "xdsServerSpan",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347398162,
+                    "duration": 19,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "3e2356a6eddbc29a",
+                    "operationName": "NewController",
+                    "references": [],
+                    "startTime": 1702474347397329,
+                    "duration": 3587503,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "9ffc0db0e01839af",
+                    "operationName": "Spec.Rules-loops",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347419389,
+                    "duration": 1154862,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "ec77baed186f4c46",
+                    "operationName": "lbEndpointsForKubeEndpoints: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347788534,
+                    "duration": 11,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "fe5df8488dc1451d",
+                    "operationName": "createUpstreamTransportSocket: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347788555,
+                    "duration": 191700,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "f9fd5a6dec4a0c12",
+                    "operationName": "NewCluster: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347980272,
+                    "duration": 4,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "2f73a33845e0b754",
+                    "operationName": "NewWeightedCluster: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347980281,
+                    "duration": 2,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "6a4aad21cfa19dd7",
+                    "operationName": "trackService: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347980294,
+                    "duration": 22,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "dada1c811c3e382c",
+                    "operationName": "sni-loops",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347419378,
+                    "duration": 1,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "df0c9115267ceaaa",
+                    "operationName": "trackService: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347419395,
+                    "duration": 47,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "06e81dec9883d5ad",
+                    "operationName": "serviceGetter: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347980319,
+                    "duration": 205738,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "94fe11a8b31541f4",
+                    "operationName": "serviceGetter: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347419443,
+                    "duration": 4774,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "9924caa7e1a928c2",
+                    "operationName": "endpointsGetter: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474348186085,
+                    "duration": 194999,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "9a46f133b7f8125d",
+                    "operationName": "endpointsGetter: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347424230,
+                    "duration": 3869,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "ce8876875d343b2f",
+                    "operationName": "lbEndpointsForKubeEndpoints: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347428113,
+                    "duration": 3,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "3558cc40ddd0e0f7",
+                    "operationName": "lbEndpointsForKubeEndpoints: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474348381120,
+                    "duration": 16,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "f0359dfac842aadc",
+                    "operationName": "trackService: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474348574330,
+                    "duration": 44,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "abb8af8ca7909309",
+                    "operationName": "NewCluster: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474348573813,
+                    "duration": 382,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "cf22d838f1c9eb33",
+                    "operationName": "createUpstreamTransportSocket: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347428119,
+                    "duration": 4994,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "bd4e52f3aed9618a",
+                    "operationName": "NewCluster: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347433130,
+                    "duration": 4,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "e69caad36a9bb713",
+                    "operationName": "NewWeightedCluster: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474348574201,
+                    "duration": 22,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "08276a516fc6a699",
+                    "operationName": "createUpstreamTransportSocket: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474348381142,
+                    "duration": 192657,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "0c98989b6269ec23",
+                    "operationName": "serviceGetter: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474348574376,
+                    "duration": 201121,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "66264c6f59bcd8be",
+                    "operationName": "endpointsGetter: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474348775511,
+                    "duration": 205402,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "e95a92d7975a3d5d",
+                    "operationName": "lbEndpointsForKubeEndpoints: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474348980939,
+                    "duration": 10,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "82d5d8763999691f",
+                    "operationName": "trackService: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474349774960,
+                    "duration": 72,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "444a9961f1ffe593",
+                    "operationName": "NewCluster: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474350374609,
+                    "duration": 17,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "d2f3781d7e65890c",
+                    "operationName": "path-loop: (default/helloworld).Rules[1]",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347446069,
+                    "duration": 1128178,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "63631b7a4f89dbc5",
+                    "operationName": "serviceGetter: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347433182,
+                    "duration": 4507,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "21f94505a94db478",
+                    "operationName": "NewWeightedCluster: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347433137,
+                    "duration": 2,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "5208882666bd3f9f",
+                    "operationName": "trackService: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347433149,
+                    "duration": 25,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "3614fcd70c90cf7a",
+                    "operationName": "serviceGetter: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474349176126,
+                    "duration": 207110,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "1af5e874b5a44863",
+                    "operationName": "NewCluster: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474349176071,
+                    "duration": 5,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "5f81bc1933ae5558",
+                    "operationName": "NewWeightedCluster: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474349176079,
+                    "duration": 2,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "8b721c8882bc4c00",
+                    "operationName": "NewCluster: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347446033,
+                    "duration": 3,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "6964ba59db0565f7",
+                    "operationName": "trackService: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474349176093,
+                    "duration": 31,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "d7e53e5cac3b79d7",
+                    "operationName": "NewWeightedCluster: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347446039,
+                    "duration": 2,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "790123af02bfd7c4",
+                    "operationName": "path-loop: (default/helloworld).Rules[0]",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347419392,
+                    "duration": 26667,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "7cea4dac0c6d5ba8",
+                    "operationName": "endpointsGetter: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474349383252,
+                    "duration": 197965,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "c361aa9beca5aeea",
+                    "operationName": "serviceGetter: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347446097,
+                    "duration": 137738,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "e5903741a63374a1",
+                    "operationName": "createUpstreamTransportSocket: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347441789,
+                    "duration": 4231,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "3365c88b5f53105f",
+                    "operationName": "endpointsGetter: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347437704,
+                    "duration": 4062,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "d85fe9535c8a1e71",
+                    "operationName": "trackService: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347446072,
+                    "duration": 24,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "e8fac1c0387df2e1",
+                    "operationName": "lbEndpointsForKubeEndpoints: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474349581236,
+                    "duration": 8,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "4601fc6967cf6309",
+                    "operationName": "lbEndpointsForKubeEndpoints: default/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474347441780,
+                    "duration": 4,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                    "spanID": "aa234c0c62f0c776",
+                    "operationName": "createUpstreamTransportSocket: demo/helloworld-00001",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e7d88ecb3e5510e317b6f5f43c6341a5",
+                            "spanID": "3e2356a6eddbc29a"
+                        }
+                    ],
+                    "startTime": 1702474349581249,
+                    "duration": 193605,
+                    "tags": [
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "otlp"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                }
+            ],
+            "processes": {
+                "p1": {
+                    "serviceName": "net-kourier",
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "IngressTranslator"
+                        },
+                        {
+                            "key": "service.version",
+                            "type": "string",
+                            "value": "0.1.0"
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "go"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.21.0"
+                        }
+                    ]
+                },
+                "p2": {
+                    "serviceName": "net-kourier",
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "controller-tracer"
+                        },
+                        {
+                            "key": "service.version",
+                            "type": "string",
+                            "value": "0.1.0"
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "go"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.21.0"
+                        }
+                    ]
+                },
+                "p3": {
+                    "serviceName": "net-kourier",
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "ingress-tracer"
+                        },
+                        {
+                            "key": "service.version",
+                            "type": "string",
+                            "value": "0.1.0"
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "go"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.21.0"
+                        }
+                    ]
+                }
+            },
+            "warnings": null
+        }
+    ],
+    "total": 0,
+    "limit": 0,
+    "offset": 0,
+    "errors": null
+}
